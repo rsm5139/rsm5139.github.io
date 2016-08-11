@@ -2,14 +2,12 @@
 layout: default
 ---
 
-<div class="home">
+<div class="blog">
 
-  <h1 class="page-heading">Recent Posts</h1>
+  <h1 class="page-heading">My Incoherent Ramblings</h1>
   {% assign count = 0 %}
   <ul class="post-list">
     {% for post in site.posts %}
-      {% unless counter == 3 %}
-      {% increment counter %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
@@ -17,9 +15,8 @@ layout: default
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
       </li>
-      {% endunless %}
     {% endfor %}
   </ul>
-  <p class="see-more"><a href="{{ "/blog/" | prepend: site.baseurl }}">See more posts</a></p>
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>
