@@ -11,7 +11,7 @@ email: rsm5139@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Research Technologist<br>
   The Network for Sustainable Climate Risk Management<br>
-  <a href="http://scrimhub.org" target="_blank">SCRiMhub.org</a>
+  <a href="http://scrimhub.org" target="_blank">SCRiMhub</a>
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://randy-miller.com" # the base hostname & protocol for your site
 twitter_username: rsm5139
