@@ -4,22 +4,8 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Recent Posts</h1>
-  {% assign count = 0 %}
-  <ul class="post-list">
-    {% for post in site.posts %}
-      {% unless counter == 3 %}
-      {% increment counter %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+  <h1 class="page-heading">Space for rent</h1>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-      {% endunless %}
-    {% endfor %}
-  </ul>
-  <p class="see-more"><a href="{{ "/blog/" | prepend: site.baseurl }}">See more posts</a></p>
+  <p>I must continue adding content to this page</p>
 
 </div>
